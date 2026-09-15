@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#25292a" />
+    <meta name="description" content="Gen Sport — план тренировок Artem и фактические результаты Dan." />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Gen Sport</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="desktop-rail" aria-label="Основная навигация">
+        <button class="brand-mark" aria-label="Gen Sport, главная">G<span>↑</span></button>
+        <nav id="desktop-nav"></nav>
+        <button class="rail-avatar" data-action="switch-profile" aria-label="Сменить профиль">A</button>
+      </aside>
+
+      <main id="app" tabindex="-1"></main>
+
+      <nav id="mobile-nav" class="mobile-nav" aria-label="Нижняя навигация"></nav>
+    </div>
+
+    <div id="modal-root"></div>
+    <div id="toast-root" aria-live="polite"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
